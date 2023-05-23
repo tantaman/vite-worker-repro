@@ -1,0 +1,13 @@
+{
+  "name": "vite-repro-worker",
+  "version": "0.0.2",
+  "type": "module",
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "module": "src/index.js",
+  "files": [
+    "src"
+  ]
+}
