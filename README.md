@@ -5,6 +5,10 @@ git clone git@github.com:tantaman/vite-worker-repro.git
 pnpm install
 ```
 
+The source of the worker dependency being used in `package.json` is here: https://github.com/tantaman/vite-worker-repro/tree/main/worker-package
+
+> Note that this bug only happens when installing the dependency from npm. If the worker dependency is included via `link:` there is no error.
+
 ## Dev Mode
 
 Dev mode will fail to load the worker --
